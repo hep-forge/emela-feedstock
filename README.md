@@ -11,6 +11,11 @@ Builds linux-amd64 + linux-arm64 in one matrix workflow and uploads to the
 
 eMELA: electroweak parton distributions and matched EW-QCD calculations
 
+## Architectures
+
+State per architecture: see the platforms badge above or [anaconda.org/hep-forge/emela](https://anaconda.org/hep-forge/emela).
+
+
 ## Install
 
 ```bash
@@ -20,3 +25,4 @@ conda install -c hep-forge -c conda-forge emela
 ## Maintainers
 
 * [@meiyasan](https://github.com/meiyasan/)
+
