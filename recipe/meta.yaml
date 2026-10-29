@@ -20,7 +20,10 @@ source:
   {% endif %}
   folder: source
   patches:
+    # upstream since 1.0.1
+    {% if version == "1.0" %}
     - 0001-support-range-of-cmakes.patch
+    {% endif %}
 
 build:
   number: 0
