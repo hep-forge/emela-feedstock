@@ -34,7 +34,7 @@ requirements:
   build:
     - {{ stdlib('c') }}
     - {{ compiler('cxx') }}
-    - {{ compiler('gfortran') }}
+    - {{ compiler('fortran') }}
     - cmake
     - make
     - sed        # build.sh's `sed -i` needs GNU semantics; BSD sed on macOS differs
